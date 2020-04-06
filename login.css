@@ -1,0 +1,132 @@
+body {
+    background-image: url(images/loginbg.jpeg);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+.main {
+    background-image: url(images/main2.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9999998e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Droid Sans', arial;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(59, 59, 59);
+}
+
+.active {
+    background-color: rgb(44, 44, 44);
+}
+.login {
+    height: 50%;
+    width: 100%;
+
+    margin-top: 100;
+}
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: azure;
+    margin-left: 90;
+    font-size: 100px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 100;
+    margin-top: 10;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.inp {    background-color: rgb(173, 205, 231);
+    border: none;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 100;
+    margin-top: 10;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.4s;
+}
+.inp:focus {
+    background-color: #ebebeb;
+    color: rgb(29, 25, 25);
+    font-family: 'Open Sans', sans-serif;
+    border: 5px solid rgb(173, 205, 231);
+}
+.but { 
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 10;
+    margin-top: 10;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.4s;}
+
+    .but1 { 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        margin-left: 100;
+        margin-top: 10;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+
+        transition-duration: 0.4s;}
+
+        h2 { 
+            font-family: 'Bebas', arial;
+    color: azure;
+    margin-top: 60;
+    margin-left: 90;
+    font-size: 80px;
+        }

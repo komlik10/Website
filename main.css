@@ -1,0 +1,64 @@
+body {
+    background-image: url(images/main.png);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+.main {
+    background-image: url(images/main2.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.second {
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    padding: 0;
+    overflow: hidden;
+    background-color: #9999998e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Droid Sans', arial;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(59, 59, 59);
+}
+
+.active {
+    background-color: rgb(44, 44, 44);
+}
+.login {
+    height: 50%;
+    width: 100%;
+    margin: 100;
+}
